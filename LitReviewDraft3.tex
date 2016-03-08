@@ -25,23 +25,26 @@
 	\section{Introduction}
 		
 		Mammalian genomes are largely composed of repetitive elements.
-		Interspersed repeats (Transposable elements (TEs)) are the largest class of repeats in eukaryotes, occupying at least 46\% of the human genome \citep{Lander01} and about 39\% of the mouse genome \citep{Waterson02}.
+		The most abundant repeats are transposable elements (TEs) which occupy at least 46\% of the human genome \citep{Lander01}, and about 39\% of the mouse genome \citep{Waterson02}.
 		The replication of TEs within the genome has the potential to be mutagenic, and therefore their regulation is paramount to the viability and evolutionary fitness of the organism \citep{Bodak14}.
-		Silencing mechanisms are used throughout the genome to suppress many sequences such as the human female X chromosome as well as repetitive elements. 
-		TE regulation has been studied extensively, but has not yet been fully elucidated.
-		Splicing of L1 elements has been detected \textit{in vitro} \citep{Belancio06}, if it were to be detected \textit{in vivo} it would provide an overlooked avenue of suppression to explore. 
+		Silencing mechanisms are used throughout the genome to suppress many sequences such as the human female X chromosome and repetitive elements. 
+		TE regulation has been studied extensively, revealing a role for methylation, chromatin modification and RNA silencing among other suppression mechanisms. 
+		Despite the comprehensive group of mechanisms which have been recognised, the complete picture of TE regulation has yet to be elucidated.
+		Splicing of LINE-1 (L1) elements has been detected \textit{in vitro} \citep{Belancio06}; if it were to be detected \textit{in vivo} it would provide an overlooked avenue of suppression to explore. 
 			
 		
 		\subsection{Transposable elements}
 			
-			TEs are divided into two classes based on their method of transposition: class I retrotransposons use an RNA intermediate for a copy-and-paste mechanism whereas class II DNA transposons use a cut-and-paste mechanism with no intermediate \citep{Feschotte07,Wicker07,Han10,Finnegan89}.
-			Retrotransposons can be further divided based on the presence of long terminal repeats (LTRs).
+			TEs are divided into two classes based on their method of transposition. 
+			Class I retrotransposons use an RNA intermediate for a copy-and-paste mechanism, whereas class II DNA transposons use a cut-and-paste mechanism with no intermediate \citep{Finnegan89,Feschotte07,Wicker07,Han10} 	Retrotransposons can be further divided based on the presence of long terminal repeats (LTRs).
 			Non-LTR retrotransposons can be either autonomous Long INterspersed Elements (LINEs) and Short INterspersed Elements (SINEs).
 			LINEs can be independently mobilised by the encoded reverse transcriptase whereas SINEs rely on factors provided by autonomous elements for mobilisation \citep{Jurka07}.
 			
-			LINE-L1 elements (L1s) are the most abundant class of retrotransposons in mammalian genomes, comprising up to 17\%  of the human genome and 19\% of mouse \citep{Belancio08,Bodak14,Graham06}.
-			L1s in humans and mice are approximately 6kb and 7kb in length respectively.
-			The full length element contains a 5' untranslated region (5'UTR) with internal RNA polymerase promoter, two open reading frames (ORFs) separated by a spacer region, and a 3'UTR terminating in a poly(A) tail (Figure \ref{L1-structure-RT}A)\citep{Belancio07,Bodak14}. L1s also exist in truncated forms such as "Half-L1s" (HAL1) which are 3-4kb in length \citep{Bao10}.
+			L1 elements are the most abundant class of retrotransposons in mammalian genomes, comprising up to 17\%  of the human genome and 19\% of mouse genome\citep{Graham06,Belancio08,Bodak14}.
+			Full length L1s in humans and mice are approximately 6kb and 7kb in length respectively.
+			L1s also exist in truncated forms such as "Half-L1s" (HAL1) which are 3-4kb in length \citep{Bao10}.
+			The full length element contains a 5' untranslated region (5'UTR) with internal RNA polymerase promoter, two open reading frames (ORFs) separated by a spacer region, and a 3'UTR terminating in a poly(A) tail (Figure \ref{L1-structure-RT}A)\citep{Belancio07,Bodak14}.
+			HAL1 elements encode ORF1 but not ORF2 \citep{Bao14}. 
 			
 				\begin{figure}[tb] % L1 structure + retrotransposition
 					\centering
@@ -53,37 +56,38 @@
 					\label{L1-structure-RT}
 				\end{figure}
 
-			The number of L1 fragments in the human genome has been estimated at 516,000 \citep{Lander01} with 7,000 of those being full length \citep{Khan03} and only 80-100 remaining mobile \citep{Brouha03}.
-			The active L1s complete a retrotransposition cycle enabling them to mobilise throughout the genome.
+			The number of L1 fragments in the human genome has been estimated at 516,000 \citep{Lander01} with 7,000 of those being full length \citep{Khan03} and only 80 to 100 remaining mobile \citep{Brouha03}.
+			The active L1s complete a retrotransposition cycle enabling them to mobilise throughout the genome (figure \ref{L1-structure-RT}B).
 			The cycle includes: transcription of L1 RNA followed by export to the cytoplasm, translation of \textit{orf1} and \textit{orf2}, association of ORF1 and ORF2 proteins with L1 RNA then return to the nucleus, reverse transcription and integration into a new genome location. 
 			
 
 
 		\subsection{Regulation of Retrotransposons}
-		
-			The rate of L1 retrotransposition is believed to be one new L1 insertion per 10-250 births \citep{Bodak14}. 
-			L1 insertion has high mutagenic potential and hence needs to be strongly regulated throughout an individual's life \citep{Garcia-Perez10, Castaneda11}.
-			Methods of regulation described in the literature include methylation, histone modification, RNA silencing including PIWI-interacting RNAs (piRNAs), RNA editases and finally, mRNA degradation. 
-			%Linker
 			
-			Epigenetic regulation includes both DNA methylation and chromatin modification.
+			The capability of L1s to insert into the genome means they are highly mutagenic, and need to be strongly regulated throughout an individual's life to maintain viability \citep{Garcia-Perez10, Castaneda11}.
+			Methods of regulation described in the literature include methylation, histone modification, RNA silencing including PIWI-interacting RNAs (piRNAs), RNA editases and finally, mRNA degradation. 
+			
+			
+		%	Epigenetic regulation includes both DNA methylation and chromatin modification.
 			Methylation is a widespread mechanism in which methyl groups are added to cytosine bases by methyltransferases resulting in transcriptional repression.
 			In the genome, methylation regulates gene expression, X chromosome inactivation and the silencing of TEs \citep{EnLi14}.
 			TE methylation was shown to decrease in mice mutated for DNMT1, a DNA-methyltransferase, indicating that the methylation status of TEs is reestablished in the germ line \citep{Walsh98, Okano99, Bourchis04, Liu14}.
-			Based on these results, DNA methylation was assumed to be the predominant regulation mechanism for TEs, however L1s in the female mature gamete are not fully methylated and are expressed, suggesting the presence of a different regulatory mechanism \citep{Peaston04}.	
+			Based on these results, DNA methylation was assumed to be the predominant regulation mechanism for TEs.
+			However L1s in the female mature gamete are not fully methylated and are expressed, suggesting the presence of a different regulatory mechanism \citep{Peaston04}.	
+			
 			Chromatin modification involves the modification of histones by methylation, acetylation and biotinylation among other additions \citep{Eichten14}.
 			Acetylation was implicated in L1 regulation when it was shown that inhibiting a histone deacetylase alleviated the silencing of an L1 transgene \citep{Garcia-Perez10}.
 			Knockout of the H3K9 methyltransferase SETB1 results in decrease in both DNA methylation and histone modifications H3K9me3 and H3K27me3. 
 			SETDB1 is hence an essential guardian against TE expression before \textit{de novo} methylation occurs in the germline \citep{Liu14}.
-			Biotinylation and ubiquitination are other histone modifications which have been shown to silence TEs \citep{Chew08,Zempleni09, Sridhar07}. 
+			Biotinylation and ubiquitination are other histone modifications which have been shown to silence TEs \citep{Sridhar07,Chew08,Zempleni09}. 
 
 			RNA silencing is a post transcriptional silencing mechanism.
-			Small regulatory non-coding RNAs, of $\sim$19-28 nt in length, derived from dsRNAs or stem loop precursors can trigger the repression of homologous sequences \citep{Obbard09}.
-			The 5' UTR in both human and mouse L1 contains sense and antisense promoters, allowing dsRNA formation which have the potential to be substrates for the RNAi pathway \citep{JingfengLi14,Matlik06}.
-			Evidence has been found to show that expression of RNA from the anti-sense promoter induces post-transcriptional degradation of L1 elements transcribed from the sense promoter \citep{Yang06}.
+			Small regulatory non-coding RNAs, of approximately 19 to 28nt in length, derived from dsRNAs or stem loop precursors can trigger the repression of homologous sequences \citep{Obbard09}.
+			The 5' UTR in both human and mouse L1 contains sense and antisense promoters, allowing dsRNA formation which have the potential to be substrates for the RNAi pathway \citep{Matlik06,JingfengLi14}.
+			\citet{Yang06} showed that expression of RNA from the anti-sense promoter induces post-transcriptional degradation of L1 elements transcribed from the sense promoter.
 			
-			piRNAs are 23-32nt length RNA elements which interact with PIWI proteins, then bind to a target sequence to form an active piRNA-induced silencing complex \citep{Castaneda11, Siomi11, Bodak14, Lim15}.
-			Mutations in PIWI proteins have been shown to result in transposon derepression \citep{Kalmykova05,Vagin04}.
+			piRNAs are 23 to 32nt length RNA elements which interact with PIWI proteins (P-element-induced wimpy testis), can then bind to a target sequence to form an active piRNA-induced silencing complex \citep{Castaneda11, Siomi11, Bodak14, Lim15}.
+			Mutations in PIWI proteins have been shown to result in transposon derepression \citep{Vagin04,Kalmykova05}.
 			A mutation in HEN methyltransferase 1 (HENMT1) was shown to cause piRNAs to remain unmethylated and thus unstable.
 			Males homozygous for the mutation were sterile  and were found to have de-repression of TEs. 
 			However, heterozygous males and all females were fertile \citep{Lim15} suggesting that suppression of TEs may act in a sex specific manner. 
@@ -102,19 +106,18 @@
 			Finally, mRNA decay is used as a means to degrade aberrant transcripts, protecting the cell from possibly toxic protein products.
 			Non-stop decay targets mRNAs which lack a stop codon and hence have translation proceeding along the poly(A) tail \citep{Hoof02}.
 			No-go decay occurs when the structure of RNA stalls the ribosome during translation, causing the sequestration of translation factors and the endonucleolytic cleaving of mRNA near the stall site \citep{Doma06}. 
-			% Add a joining sentence..
-			
+			{\huge CONNECTING SENTENCE}		
 			Nonsense-mediated decay (NMD) is a surveillance mechanism which detects and degrades mRNAs with aberrant function \citep{ Kervestin12, Lykke-Andersen14}.
-			Apparently normal and physiologically functional \textit{wild-type} mRNAs are also targeted by NMD \citep{Schweingruber13}.
+			NMD also targets apparently normal and physiologically functional \textit{wild-type} mRNAs \citep{Schweingruber13}.
 			Depending on the organism, 5\% to 20\% of transcripts in a typical transcriptome are substrates of the NMD pathway \citep{He15}.
 			The substrates of NMD can be organised into several categories, the first and most prominent includes transcripts which contain premature termination codons (PTCs).
 			Such transcripts are generated from endogenous genes with nonsense mutations \citep{Conti05}, pseudogenes \citep{Mcglincy08}, extended 3' UTRs \citep{Garneau07}, or an alternative splicing (AS) event which has led to either intron retention or the inclusion of a PTC-containing exon \citep{Ge14,Ni07}.
 			The second category includes transcripts with little to no apparent coding potential such as long non-coding RNAs \citep{Lykke-Andersenb14}, small RNAs derived from intragenic regions \citep{Smith14} and transcripts of inactivated TEs \citep{He03}.
-			In addition, the retention of the exon junction complex (EJC) has been suggested as a trigger for NMD. % ref?
+			Additionally, the retention of the exon junction complex (EJC) has been suggested as a trigger for NMD. % ref?
 			The EJC is deposited 20-24 nt upstream of exon-exon junctions \citep{Le-Hir00} and is normally displaced by the ribosome in the initial round of translation.
 			A PTC results in the retention of the EJC, and has been shown to induce NMD \citep{Gehring05, Lykke-Andersen01}. 
 			
-			Regulation of TEs in the genome is not effected through any single mechanism; It is thought that methylation and chromatin modification, RNA silencing, possibly piRNA, and RNA editases all contribute to the regulation of L1s \citep{Bodak14}.
+			Regulation of TEs in the genome is not effected through any single mechanism; It is thought that methylation and chromatin modification, RNA silencing, RNA editases and piRNAs all contribute to the regulation of L1s \citep{Bodak14}.
 			However, mRNA decay and in particular, nonsense mediated decay, have not been investigated in the context of L1 regulation.
 			L1s have limited coding capacity, a long 3'UTR and mutate over time, allowing the possibility of developing nonsense mutations \citep{Penzkofer05, Goodier13}.
 			The long 3'UTR means that the distance between the stop codon of \textit{orf2} and the poly(A) tail may result in an abnormal conformation of the ribonucleoprotein particle (mRNP) complex when translated, which would be targeted by NMD \citep{Garneau07}.
@@ -123,12 +126,13 @@
 	\section{Alternative splicing}
 		
 
-		The concept of non-continuous, ``split genes" was first developed in 1977 \citep{Berget77}, radically changing the way genes were considered. 
+		The concept of non-continuous, ``split genes" was first developed by \citet{Berget77}, radically changing the way genes were considered. 
 			
 		It is now understood that eukaryotic genes are comprised of exons, which will form the final mRNA product, and introns, non-coding sequences which are spliced out during mRNA processing \citep{Matlin05}.
 		Splicing is executed by the spliceosome, a remarkably large and dynamic complex which assembles at splice sites on the pre-mRNA. 
-		Splice sites are highly conserved sequences found at the ends of introns. More than 99\% of pre-mRNA sequences contain: a 5' splice site with a GU dinucleotide, a 3' splice site with a branch point including an adenosine, then a terminal AG.
-		Between the branch point and 3′ splice site, there is also a pyrimidine tract \citep{Black03,Vanderfeltz12} as seen in figure \ref{fig:AS-splicing}. 
+		Splice sites are highly conserved sequences found at the ends of introns. 
+		More than 99\% of pre-mRNA sequences contain a 5' splice site with a GU dinucleotide, a 3' splice site with a branch point including an adenosine, then a terminal AG.
+		Between the branch point and 3′ splice site, there is also a pyrimidine tract \citep{Black03,Vanderfeltz12} (figure \ref{fig:AS-splicing}). 
 
 			% Maybe delete, maybe not
 			\begin{figure}[tb] % As
@@ -151,10 +155,11 @@
 				
 			Analysis of alternative splicing in genes has made major advances in the last two decades.
 			The first major contributor to the extent of splicing was the formation of Expressed Sequence Tag (EST) databases (dsESTs) \citep{Parkinson09}.
-			Such databases, \textit{e.g.} RefSeq \citep{Pruitt14}, are large repositories of ESTs collected from random cDNA sequencing projects. 
 			ESTs are single sequencing reads from cDNA clones, which were originally used to predict genes through alignment to the genome.
+			Databases such as RefSeq \citep{Pruitt14}, are large repositories of ESTs collected from random cDNA sequencing projects. 
 			With the use of ESTs, the prediction of the proportion of human genes which undergo AS increased to 50\% \citep{Kan01,Brett02}.
-			The expansion of dbESTs allowed for direct comparison between cDNA collected from tissue, and previously collected, spliced, transcripts \citet{Pan08} compared collected cDNA to splice junctions supported by EST and cDNA sequences as well as new, candidate sites in order to survey splicing in several tissues.
+			The expansion of dbESTs allowed for direct comparison between cDNA collected from tissue, and previously collected, spliced, transcripts.
+			\citet{Pan08} compared cDNA to splice junctions supported by EST and cDNA sequences as well as new, candidate sites in order to survey splicing in several tissues.
 			One issue with direct comparison between cDNA sequences is that the resulting splice data cannot be fully characterised in terms of the genome because it could originate from exons, retained introns, or other regions. 
 			Hence it is more informative to compare cDNA to genomic sequence if possible. 
 			In addition, EST technologies have many limitations, including short reads, high cost, paralog confusing, contamination, 3' gene bias and low sensitivity when detecting transcripts with low abundance \citep{Lewis03, Florea06, Wang10}.
@@ -163,9 +168,9 @@
 			They offered a less labour intensive and cheaper option for characterising transcripts.
 			Labelled RNA probes are hybridised with gene-specific oligonucleotides, allowing the expression level of thousands of genes to be detected simultaneously \citep{Hu01, Wang03}. 
 			Whole-transcript microarrays have been used to monitor AS in several human tissues and cell lines \citep{Castle08}.
-			The technology still has limitations however, such as limited probe coverage and cross-hybridisation \citep{Wang10}. 
+			The technology still has limitations, such as limited probe coverage and cross-hybridisation \citep{Wang10}. 
 			
-			The rapid progress in massively parallel sequencing such as Illumina has caused the cost of sequencing to plummet, increasing the viability of deep sequencing methods for transcriptome analysis \citep{Blencowe09}.
+			The rapid progress in massively parallel sequencing such as Illumina \citep{Valencia13} has caused the cost of sequencing to plummet, increasing the viability of deep sequencing methods for transcriptome analysis \citep{Blencojkwe09}.
 			As a result, a much larger amount of data can be collected and analysed, increasing the sensitivity of alternatively spliced transcript detection to much higher than for microarray analysis.
 			Alternative splicing forms such as exon skipping, mutually exclusive exons and intron retention can all be detected simply by mapping RNA-seq reads to hypothetical splicing junctions, the challenges then rest in the downstream analysis.
 			Statistical algorithms have been developed to predict the splice junctions that are most likely used \citep{Wang10}, which allows more reliable prediction of splice junctions in mRNA-seq data. 
@@ -181,11 +186,15 @@
 				
 		\subsection{Alternative splicing in L1 elements}
 	
-			The possibility of AS in L1 elements has been investigated using an \textit{in vitro approach} \citep{Belancio06}.
+			The possibility of AS in L1 elements has been investigated using an \textit{in vitro} approach by \citet{Belancio06}.
 			The BDGP program \citep{Reese97} was used to predict the sites of numerous splice donor and acceptor sequences distributed throughout the L1 elements. 
-			Northern blot analysis was conducted with probes for the 5'UTR and a tagged neomycin-resistance cassette in the 3' end to visualise any splicing that was taking place.
-			After the blot showed evidence of AS, the transcripts were converted to cDNA and were sequenced, to verify the result. 
-			The L1s which are no longer full length are a possible result of AS. It is possible that the HALs which only encode ORF1, not ORF2 are evidence of AS \citep{Bao10}. 
+			Northern blot analysis of L1-transfected cell culture was conducted with probes for the 5'UTR and a tagged neomycin-resistance cassette in the 3' end to visualise any splicing that was taking place.
+			The blot showed evidence of AS, so the transcripts were converted to cDNA and were sequenced, to verify the splicing. 
+			Hence, in transfected cells, L1s are capable of producing AS variants.
+			
+			L1s in the genome are largely truncated, rearranged and mutated \citep{Goodier13}. 
+			It is possible that the cause of some of the degradation is AS. 
+			HAL1s encode only ORF1, not ORF2, making them a tempting candidate for AS, which could potentially have spliced out ORF2 \citep{Bao10}.
 			
 			A significant challenge associated with investigating splicing in repetitive elements is that they could easily map to many locations throughout the genome.
 			However, L1s are old enough in the mammalian genome that within the human and mouse, they have accumulated mutations which will allow them to be more easily identified \citep{Brouha03,Goodier13}.
@@ -194,33 +203,37 @@
 	\section{Conclusion and Aims}
 	
 		The regulation of TEs is essential for an organism's fitness and survival.
-		There is limited evidence that AS occurs in L1 elements \citep{Belancio06}, making it a potential avenue for downstream regulation. 
+		The limited evidence suggesting that L1s have the capability to undergo AS renders it a potential avenue for downstream regulation \citep{Belancio06}.
+		It is our intention to explore the AS of L1s in the mouse and the human, to investigate if AS is a widespread mechanism in endogenous L1s. 
 		
 		\subsubsection*{Aim 1.1}
 		
-		The first aim is to detect AS, using L1 elements as a candidate TE.
-		mRNA-seq data from mouse (Hen1) and human (MCF7) is available to use.
-		Genome data will be used for alignment, to allow for greater identification and characterisation of the potentially spliced L1s.
-		Genomes for comparison can be obtained from repeatmasker.org.
-		The human reads will be mapped to the genome using an alignment program, and sites where deletions are identified will be investigated as potential sites of splicing.
-		An initial criteria for considering a site a splice candidate will be if it has greater than 20bp missing from the transcript element compared to the genome element.
-		Sites with evidence of splicing will be compared to the canonical splice sites predicted in \citep{Belancio06} who used the BDGP program to predict splice sites based on their sequence. 
+			The first aim is to detect AS, using L1 elements as a candidate TE.
+			mRNA-seq data from human (MCF7) is available for use.
+			Genome data will be used for alignment, to allow for greater identification and characterisation of the potentially spliced L1s.
+			Genomes for comparison can be obtained from \texttt{repeatmasker.org}.
+			The human reads will be mapped to the genome using an alignment program, and sites where deletions are identified will be investigated as potential sites of splicing.
+			An initial criteria for considering a site a splice candidate will be if it has greater than 20bp missing from the transcript element compared to the genome element.
+			Sites with evidence of splicing will be compared to the canonical splice sites predicted in \citep{Belancio06} who used the BDGP program to predict splice sites based on their sequence. 
 		
 		\subsubsection*{Aim 1.2}
 				
-		If splicing is apparent, the next step will be to investigate the genome itself for spliced L1 elements which have been retrotransposed.
-		Using genome data will require re-clustering of L1 full length elements, to allow for accurate analysis.
-		Investigating the success of alternatively spliced L1 elements may indicate if it plays a role in their regulation. 
-		
-		
-		After investigating AS in L1s using human genome data, the next aim is to repeat the analysis with the mouse transcriptome data and genome.
+			If splicing is apparent, the next step will be to investigate the genome itself for spliced L1 elements which have been retrotransposed.
+			Using genome data will require re-clustering of L1 full length elements, to allow for accurate analysis.
+			Investigating the success of alternatively spliced L1 elements may indicate if it plays a role in their regulation. 
 		
 		\subsubsection*{Aim 2}
+
+			If AS is found in both the human transcriptome and the human genome, the mouse data will be used.
+			The same procedure proposed in aims 1.1 and 1.2 will be followed using the mouse (Hen1) transcriptome, then if AS is found, the genome will be used.
+			
+		\subsubsection*{Aim 3}
 		
-		Should AS also be found in mouse data, comparative analysis of splice donor and acceptor sites in the mouse and human L1s will be carried out.
-		 
+			Should AS also be found in mouse data, more detailed comparative analysis will be carried out. 
+			The specific splice donor and acceptor sites used in the human L1s will be compared to those used in the mouse, to investigate the level of conservation in the AS process between the two species'.
+			 
 		
-		Investigating the potential AS of L1 elements in the mouse and human genomes is a preliminary step towards understanding how translational quality control may regulate their expression.
+			Investigating the potential AS of L1 elements in the mouse and human genomes is a preliminary step towards understanding how translational quality control may regulate their expression.
 		
 %		\begin{enumerate}
 %			\item Detecting Alternative Splicing 
